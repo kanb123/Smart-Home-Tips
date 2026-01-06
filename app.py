@@ -3,7 +3,7 @@ import pandas as pd
 import google.generativeai as genai
 st.set_page_config(page_title="Smart House Tips",layout= "centered")
 
-GEMINI_API_key = "AIzaSyBnsEE5yEWvpaCHv2H4QDHXeyQZ5B3_zlw"
+GEMINI_API_key = ""
 
 try:
     genai.configure(api_key = GEMINI_API_key)
